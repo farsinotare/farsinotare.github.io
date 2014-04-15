@@ -14,3 +14,7 @@ As a first start, I am exploring projects and the people behind on Github:
 * Michael Matuzak: Taking over the NES with JavaScript
 * Elijah Insua: [tmpvar](http://blog.tmpvar.com/)
 
+Some sites for tutorials and references:
+
+* [adafruit.com](https://learn.adafruit.com/search)
+
