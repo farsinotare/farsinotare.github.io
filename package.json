@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "title": "Blog",
+  "description": "Another epic jekyll site.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Patrick Mulder",
+    "email": "mulder.patrick@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pmu/blog.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.1",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt-contrib-jshint": "~0.3.0"
+  },
+  "keywords": []
+}
