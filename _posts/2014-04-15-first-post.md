@@ -10,5 +10,7 @@ So, the goal of this blog is to find and talk with engineers or hobbyists that b
 
 As a first start, I am exploring projects and the people behind on Github:
 
-* [boxysean](http://boxysean.com/blog/)
+* Sean McIntyre: [boxysean](http://boxysean.com/blog/)
+* Michael Matuzak: Taking over the NES with JavaScript
+* Elijah Insua: [tmpvar](http://blog.tmpvar.com/)
 
