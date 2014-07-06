@@ -17,7 +17,7 @@ Getting started with the Red Pitaya is easy. You need a number of things though:
 
 * A network cable to connect your Red Pitaya to the network.
 * A USB micro cable and/or power supply. The Red Pitaya manual advises a USB power supply that handles 2A, but my 1A power supply seems to handle the power just fine
-* A micro SD card where you can install the RedPitaya OS, and if you are on a 11inch MacBook Air, as I am, you need to have a USB micro SD card readerreader/writer 
+* A micro SD card where you can install the RedPitaya OS, and if you are on a 11inch MacBook Air, as I am, you need to have a USB micro SD card reader/writer 
 
 ## The first run
 
@@ -32,7 +32,7 @@ There is also an option to log in to the Red Pitaya with an SSH console over USB
 
 ## An open-source measurement community
 
-The Red Pitaya comes with 3 applications out of the box: An oscilloscope, a signal generator and a spectrum analyzer. But thanks to the  open-source, you can build and run your own applications. A first community of developers has formed already, and  there are already 9 community applications available for download in the [Bazaar](http://bazaar.redpitaya.com) section and we should expect many more to come. 
+The Red Pitaya comes with 3 applications out of the box: An oscilloscope, a signal generator and a spectrum analyzer. But thanks to the open-source approach, you can build and run your own applications. A first community of developers has formed already, and  there are already 9 community applications available for download in the [Bazaar](http://bazaar.redpitaya.com) section and we should expect many more to come. 
 
 ## A first Hello World measurement
 
