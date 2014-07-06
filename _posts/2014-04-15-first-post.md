@@ -13,10 +13,11 @@ Where do you go to find discussions on hacking signals and devices?
 Some popular electronic blogs and forums seem to be:
 
 * [Electronics-Engineering-Video blog](http://www.eevblog.com/): This is a popular electronic forum and has video blogs and general discussions.
-* [Forum Arduino](http://forum.arduino.cc/index.php): Here you find really interesting open-source electronics discussions, with ta scope on  Arduino (mostly)
-* [DangerousPrototypes](http://dangerousprototypes.com/): This is a blog and forum about open-source hardware
 * The forum [forum.sparkfun](https://forum.sparkfun.com/) of Sparkfun has really interesting discussions on projects and products
 * Another large vendor of electronic stuff that has blogs and forum is [adafruit](https://www.adafruit.com/)
+* [Forum Arduino](http://forum.arduino.cc/index.php): Here you find really interesting open-source electronics discussions, with ta scope on  Arduino (mostly)
+* [DangerousPrototypes](http://dangerousprototypes.com/): This is a blog and forum about open-source hardware
+* [Electronic Lab forum](http://www.electronics-lab.com/forum/index.php): This seems to be smaller forum
 
 But community is important, and getting a feeling for who is doing what is important too. This is where Github kicks in, and I discovered already some nice first makers:
 
