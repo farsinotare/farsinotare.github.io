@@ -7,15 +7,17 @@ Light influences our experiences like no other media. With the advances of LED t
 
 # The Need for Light
 
-That people are looking for new ways to control light can be impressively seen from [this kickstarter](https://www.kickstarter.com/projects/metamanda/clyde-an-expressive-lamp-for-creative-homes) project. There were almost 1000 backers, and $150,000 pledges. Apart from a special design, the main features are light controls with an [Arduino](http://arduino.cc/) and special software.
+That people are looking for new ways to control light can be impressively seen from [this kickstarter](https://www.kickstarter.com/projects/metamanda/clyde-an-expressive-lamp-for-creative-homes) project. There were almost 1000 backers, and $150,000 pledges. Apart from a special design of the lamp, the project's main features were light controls with an [Arduino](http://arduino.cc/) and special software.
 
-The technical specifcations on the light are rather "simple" and described with "High-intensity, energy-efficient LED task lighting. At about 6W, our LEDs output more light than a 40W incandescent."
+The technical specifcations on the light are rather "simple" and described with "High-intensity, energy-efficient LED task lighting. At about 6W, the LEDs output more light than a 40W incandescent."
 
 # Advanced Light Design
 
-While this lamp is a consumer product targetted mostly towards tinkerers, light design plays a very important role in architecture for a number of years already.  One widely used system is the [Philips ColorKinetics](http://www.colorkinetics.de/showcase). The main interface to this kind od light is given by [DMX power and data supplies](http://www.colorkinetics.de/support/datasheets/PDS-60ca_24V_DMX_SpecSheet.pdf).  The [pinout](http://en.wikipedia.org/wiki/DMX512#Connectors) of the coonectors applies differential signalling with one or two data lines. Via data lines, data is transmitted on 250 kBaud.
+While this lamp is a consumer product targetted mostly towards tinkerers, light design plays a very important role in architecture for a number of years already.  One widely used system is the [Philips ColorKinetics](http://www.colorkinetics.de/showcase).
 
-DMX512, is not only used in high-end lighting products, but also in [Arduino projects](http://playground.arduino.cc/Learning/DMX). These might result in fun projects, since there are plenty of devices at Ebay that support DMX512.
+The ColorKinetics interface is done with [DMX power and data supplies](http://www.colorkinetics.de/support/datasheets/PDS-60ca_24V_DMX_SpecSheet.pdf).  The [pinout](http://en.wikipedia.org/wiki/DMX512#Connectors) of the coonectors applies differential signalling with one or two data lines. On the data lines, serial data is transmitted at 250 kBaud.
+
+DMX512 is not only used in high-end lighting products, but also in [Arduino projects](http://playground.arduino.cc/Learning/DMX). These might result in fun projects, since there are plenty of devices at Ebay that support DMX512.
 
 Yet, if you want to follow the road of advanced lighting design, you probably will leave the Arduino behind sooner or later, and start with software and prototyping tools like [VVVV](http://vvvv.org/) or [OpenFrameworks](http://openframeworks.cc/about/). With these kind of tools, you can think of hacking projectors or build your own lighting components.
 
