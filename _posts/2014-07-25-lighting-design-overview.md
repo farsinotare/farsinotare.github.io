@@ -3,7 +3,7 @@ title: Lighting Design Overview
 layout: post
 tags: light design art
 ---
-Light influences our experiences like no other media. With the advances of LED technology, we can expect many different light experiences. We probably can start talking directly to our lamps with IP addresses, maybe this year already or maybe next year.
+Light influences our experiences like no other media. With the advances of LED technology, we can expect to experience many different lighting solutions in the near future. And, with IoT ideas, you can start talking directly to your lamps with IP addresses, maybe this year already, maybe next year.
 
 # The Need for Light
 
