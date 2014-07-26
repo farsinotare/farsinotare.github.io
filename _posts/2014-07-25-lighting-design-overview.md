@@ -23,7 +23,9 @@ DMX512 is not only used in high-end lighting products, but also in [Arduino proj
 
 Yet, if you want to follow the road of advanced lighting design, you probably will leave the Arduino behind sooner or later, and start with software and prototyping tools like [VVVV](http://vvvv.org/) or [OpenFrameworks](http://openframeworks.cc/about/). With these kind of tools, you can think of hacking projectors or build your own lighting components.
 
-According to Arjen, when sourcing lighting components individually, it is important to look the efficiency of LEDs (e.g. 150 lm/W) and [colour fastness](http://en.wikipedia.org/wiki/Colour_fastness) (Ra > 90).
+According to Arjen, when sourcing lighting components individually, it is important to look the efficiency of LEDs (e.g. 150 lm/W) and [colour fastness](http://en.wikipedia.org/wiki/Colour_fastness) (Ra > 90). Arjen showed the effects of programmable light with high quality hardware and this is a snapshot of one of its infinite states.
+
+<img src="/media/images/lamp1.png" />
 
 # Light Networks
 
