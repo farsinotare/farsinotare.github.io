@@ -13,17 +13,21 @@ The technical specifcations on the light are rather "simple" and described with 
 
 # Advanced Light Design
 
-While this lamp is a consumer product targetted mostly towards tinkerers, light design plays a very important role in architecture for a number of years already.  One widely used system is the [Philips ColorKinetics](http://www.colorkinetics.de/showcase).
+While this lamp is a consumer product targetted mostly towards tinkerers, light design plays a very important role in architecture for a number of years already.
 
-The ColorKinetics interface is done with [DMX power and data supplies](http://www.colorkinetics.de/support/datasheets/PDS-60ca_24V_DMX_SpecSheet.pdf).  The [pinout](http://en.wikipedia.org/wiki/DMX512#Connectors) of the coonectors applies differential signalling with one or two data lines. On the data lines, serial data is transmitted at 250 kBaud.
+But as lighting designer [Arjen Van der Cruijsen](http://www.arjenvandercruijsen.com/) explained, to illuminate buildings with advanced lighting technqiues, there are challenges around both, lighting hardware and lighting software.
+
+One example of current state-of-the art lighting hardware is the [Philips ColorKinetics](http://www.colorkinetics.de/showcase). The ColorKinetics interface is done with [DMX power and data supplies](http://www.colorkinetics.de/support/datasheets/PDS-60ca_24V_DMX_SpecSheet.pdf).  The [pinout](http://en.wikipedia.org/wiki/DMX512#Connectors) of the connectors applies differential signalling with one or two data lines. On the data lines, serial data is transmitted at 250 kBaud.
 
 DMX512 is not only used in high-end lighting products, but also in [Arduino projects](http://playground.arduino.cc/Learning/DMX). These might result in fun projects, since there are plenty of devices at Ebay that support DMX512.
 
 Yet, if you want to follow the road of advanced lighting design, you probably will leave the Arduino behind sooner or later, and start with software and prototyping tools like [VVVV](http://vvvv.org/) or [OpenFrameworks](http://openframeworks.cc/about/). With these kind of tools, you can think of hacking projectors or build your own lighting components.
 
+According to Arjen, when sourcing lighting components individually, it is important to look the efficiency of LEDs (e.g. 150 lm/W) and [colour fastness](http://en.wikipedia.org/wiki/Colour_fastness) (Ra > 90).
+
 # Light Networks
 
-So, controlloing a single light source is often just a start. Especially, with cheaper networks access and cheaper lighting components, light networks will get more and more important.
+So, controlloing a single light source is often just a start. Especially, with cheaper networks access and cheaper lighting components, light networks will get more and more important. It is here, where we quickly enter software and protocols around light.
 
 Enter the [LIN bus](http://blog.farsinotare.com/2014/04/15/2-the-lin-bus/) again. LIN is a single-wire protocol that is used to connect a number of slaves to a single master. One advantage of LIN is that you could get diagnostic information on your light, and easily program light sequences with PWM signals.
 
