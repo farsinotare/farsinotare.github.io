@@ -15,7 +15,7 @@ The technical specifcations on the light are rather "simple" and described with 
 
 While this lamp is a consumer product targetted mostly towards tinkerers, light design plays a very important role in architecture for a number of years already.
 
-As lighting designer [Arjen Van der Cruijsen](http://www.arjenvandercruijsen.com/) explained, to illuminate buildings with advanced lighting technqiues, there are challenges around both, lighting hardware and lighting software.
+As lighting designer [Arjen Van der Cruijsen](http://www.arjenvandercruijsen.com/) explained, to illuminate buildings with advanced lighting technqiues, there are challenges and new opportunities. While a number of hardware products are available, we are just at the beginning of  programmable light.
 
 One example of current state-of-the art lighting hardware is the [Philips ColorKinetics](http://www.colorkinetics.de/showcase). The ColorKinetics interface is done with [DMX power and data supplies](http://www.colorkinetics.de/support/datasheets/PDS-60ca_24V_DMX_SpecSheet.pdf).  The [pinout](http://en.wikipedia.org/wiki/DMX512#Connectors) of the connectors applies differential signalling with one or two data lines. On the data lines, serial data is transmitted at 250 kBaud.
 
