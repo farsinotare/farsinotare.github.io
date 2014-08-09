@@ -21,7 +21,7 @@ I found two: [Aetzwerk](http://www.aetzwerk.de/) and [Top-Print](http://www.top-
 
 I got the PCBs after around 1 week from ordering, and both looked liked very high quality. Yet, their price was a bit high, and I think next time, I just order the PCB from one of the many online suppliers:
 
-* [pcb devboards[(https://www.pcb-devboards.de/)
+* [pcb devboards](https://www.pcb-devboards.de/)
 * [pcbpool](http://www.pcb-pool.com/ppde/index.html)
 * [eurocircuits](http://www.eurocircuits.com/)
 * [printec](http://www.printec-pcb.com.tw/en_product.php)
