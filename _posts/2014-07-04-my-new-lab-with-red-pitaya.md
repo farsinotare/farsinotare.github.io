@@ -6,6 +6,7 @@ images:
   - /media/images/redpitaya1.jpg
   - /media/images/redpitaya2.jpg
   - /media/images/redpitaya3.jpg
+  - /media/images/redpitaya_shift_reg.png
 ---
 The [Red Pitaya](http://redpitaya.com/) is an open instruments platform. With the 4 SMA connectors, you can capture and generate high-frequency signals. With an open-source approach, this device might be interesting for enabling new kinds of electronics laboratories.
 
@@ -42,6 +43,7 @@ If you want to see the Red Pitaya in action, have a look at the pictures below:
 <li><img src="{{ page.images[0] }}" /></img></li>
 <li><img src="{{ page.images[1] }}" /></img></li>
 <li><img src="{{ page.images[2] }}" /></img></li>
+<li><img src="{{ page.images[3] }}" /></img></li>
 </ul>
 
 # Power on 
