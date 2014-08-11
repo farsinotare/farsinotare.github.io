@@ -5,7 +5,7 @@ tags: redpitaya, measurements
 images:
   - /media/images/redpitaya_shell.PNG
 ---
-In my [previous post on RedPitaya](http://blog.farsinotare.com/2014/07/04/my-new-lab-with-red-pitaya/), I showed the web interface of Red Pitaya. While the web interface is nice for ad-hoc experiments, the Red Pitaya command line interface (CLI) gives new ways to generate custom signals and measurements.
+In my [previous post on RedPitaya](http://blog.farsinotare.com/2014/07/04/my-new-lab-with-red-pitaya/), I showed the web interface of [RedPitaya](http://redpitaya.com/). While the web interface is nice for ad-hoc experiments, the Red Pitaya command line interface (CLI) gives new ways to generate custom signals and measurements.
 
 To use the Unix shell on RedPitaya, you can use ssh.
 
