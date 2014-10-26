@@ -15,15 +15,15 @@ For example, in the case of combining a <a href="http://ledlogics.com">LEDlogics
 
 <img src="/media/images/small_arduino_ledlogics.jpg" />
 
-The combination of male header connectors on the board together with female headers on the jumper wires is also a popular option for most breakout boards.
+The combination of male header connectors on the board together with female headers on the jumper wires is also a popular option for most breakout boards, for example see the following Nunchuk break out board:
 
 <img src="/media/images/breakout_board.png" />
 
 If you think about advanced wiring of digital systems, things get quickly more complicated. Would you really want to manage 10 or more wires between PCBs? No. When using multiple wires, you can use so called ribbon wires.
 
-An example here, is wiring up an old joystick with an RS-232 interface. You can find the RS-232 connectors easily, but how to connect those to a PCB (or a breadboard). Well, you need to design your own breakout board.
+An example is here wiring up an old joystick with an RS-232 interface. You can find the RS-232 connectors easily, but how would you connect those to a PCB (or a breadboard)? Well, you most likely need ribbon cables, and probably some kind of breakout board.
 
-But, there seems to be ribbon cables too. Well, soldering a ribbon might be an option, but not the best, as you can see below:
+Connectors on ribbon cables are another topic. Soldering a ribbon to a breakout board might be an option, but not the best, as you can see below:
 
 <img src="/media/images/thumb_rs232_cable_2.jpg" />
 
