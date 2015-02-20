@@ -54,3 +54,6 @@ Often, servo motors are limited to a position range only, e.g. 0 to 180 degress.
 
 It is also possible to buy continous rotation servo motors directly, e.g. from [Adafruit](http://www.adafruit.com/product/154). The advantage of using such kind of motors is the gearbox.
 
+## Comments
+Leave comments at [reddit](http://www.reddit.com/r/arduino/comments/2wj4wz/disassembling_a_servo_motor/)
+
