@@ -18,7 +18,7 @@ The basic Arduino code to move that pointer could be something similar to:
       myservo.write(90);  // set servo angle
     } 
 
-See the [Arduino API](http://arduino.cc/en/Reference/ServoWrite) for information about "writing" a position. That position is regulated with help of a [feedback loop](http://en.wikipedia.org/wiki/Feedback). 
+See the [Arduino API](http://arduino.cc/en/Reference/ServoWrite) for information about "writing" a position. That position is regulated with help of a [feedback loop](http://en.wikipedia.org/wiki/Feedback#History).
 
 
 Let's look a bit deeper into the feedback mechanics of a servo motor.
