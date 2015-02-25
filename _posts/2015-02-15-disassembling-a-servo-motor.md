@@ -18,10 +18,10 @@ The basic Arduino code to move that pointer could be something similar to:
       myservo.write(90);  // set servo angle
     } 
 
-See the [Arduino API](http://arduino.cc/en/Reference/ServoWrite) for information about "writing" a position.
+See the [Arduino API](http://arduino.cc/en/Reference/ServoWrite) for information about "writing" a position. That position is regulated with help of a [feedback loop](http://en.wikipedia.org/wiki/Feedback). 
 
 
-Let's look a bit at the mechanics of a servo motor. 
+Let's look a bit deeper into the feedback mechanics of a servo motor.
 
 # Position control
 
@@ -30,11 +30,11 @@ Typically, [servomotors](http://en.wikipedia.org/wiki/Servomotor) look as:
 <a href="https://www.flickr.com/photos/unavoidablegrain/2815722060" title="R/C Servo by Greg Borenstein, on Flickr"><img src="https://farm4.staticflickr.com/3218/2815722060_9cf6bbfe74_m.jpg" width="375" height="275" alt="R/C Servo"></a>
 
 From this picture, we see two important parts. Some gears on top, and the main DC motor bottom left. Bottom right is some integrated circuit, and a potentionmeter.
-I opened a damaged serve to look inside, and the parts are clear here too:
+I opened a damaged servo to look inside, and the parts are clear here too:
 
 <a href="https://www.flickr.com/photos/pmulder99/16353556499" title="servo motor by Patrick Mulder, on Flickr"><img src="https://farm8.staticflickr.com/7320/16353556499_0cfbc8b696_m.jpg" width="375" height="475" alt="servo motor"></a>
 
-Removing the DC motor, gives some mechanical parts as well as a potentionmeter to get feedback.
+Removing the DC motor, gives some mechanical parts as well as a potentionmeter to get feedback. 
 
 Another nice illustration of the different parts is in this video:
 
