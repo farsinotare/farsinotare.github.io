@@ -2,7 +2,7 @@
 title: DC-DC converters
 tags: converters, analog, mixed
 layout: post
-----
+---
 If you power mobile solutions, you most likely need to convert a battery voltage into something "usable". Most likely into 5V or 3.3V. 
 An additional difficulty comes with a battery voltage that changes over time.
 
