@@ -43,3 +43,5 @@ A number of semiconductor companies produce LIN RGB drivers, such as [this one f
 A simple Neopixel strip
 
 <iframe src="//player.vimeo.com/video/101794688" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101794688">neopixel strip</a> from <a href="http://vimeo.com/user15074526">Patrick Mulder</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+* http://www.reddit.com/r/arduino/comments/2ipctl/library_ledeffect_a_led_effects_library_for/
