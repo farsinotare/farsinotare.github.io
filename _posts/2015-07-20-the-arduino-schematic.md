@@ -3,7 +3,7 @@ layout: post
 title: The Arduino Schematic
 tags: Arduino
 ---
-Arduino is open-hardware. This means you can freely inspect and explore the board blueprints. To do this, you can find copeis of the schematic [here](https://www.arduino.cc/en/Main/arduinoBoardUno) --> "Schematic and Reference Design".
+Arduino is open-hardware. This means you can freely inspect and explore the board blueprints. To do this, you can find copies of the schematic [here](https://www.arduino.cc/en/Main/arduinoBoardUno) --> "Schematic and Reference Design".
 
 The board files come in EAGLE format, which you can [freely download](http://www.cadsoft.de/download-eagle/) for non-commercial usage. Once you have EAGLE, you can inspect the Arduino PCB (stands for Printed Circuit Board) which looks as below.
 
@@ -13,9 +13,9 @@ On this PCB, there are 4 important functions:
 
 1) The MCU: This is the main component of the board. On an Arduino UNO it is an Atmel ATMega328 chip with digital and analog inputs, as well as digital and "PWM" outputs. These pins can be used to switch external state, drive actuators or sense an environment.
 
-2)  Power supplies: The microcontroller needs a stable 5V. But in many embedded systems you'll deal with other devices too, batteries for example, but also displays or sensors. The Arduino power management takes care of converting smoe voltages and making them stable on the board. 
+2)  Power supplies: The microcontroller needs a stable 5V. But in many embedded systems you'll deal with other devices too, batteries for example, but also displays or sensors. The Arduino power management takes care of converting some voltages and making them stable on the board. 
 
-3) To burn softwate onto the microcontroller, the boards needs a way to communicate with an external programmer. This can be done with serial communication that requires a driver chip. Often, you'll find a chip for serial communication, but sometimes it can be a JTAG or ISCP adapter too.
+3) To burn software onto the microcontroller, the board needs a way to communicate with an external programmer. This can be done with serial communication that requires a driver chip. Often, you'll find a chip for serial communication, but sometimes it can be a JTAG or an ISCP adapter too.
 
 4) Last, the board provides multiple header and a standard form factor that allows others to interface the Arduino.
 
