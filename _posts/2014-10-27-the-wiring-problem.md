@@ -7,7 +7,7 @@ In the beginning, there are breadboard prototypes. An examples looks as below:
 
 <img src="/media/images/ledlogics_working.jpg" />
 
-Breadboard wiring is often done with so called "jumper wires". Jumper wires can be as simple as simple wires. Jumpe wires often come with headers, and for breadboards, wires with male type headers often make sense.
+Breadboard wiring is often done with so called "jumper wires". Jumper wires can be as simple wires. Jumpe wires often come with headers, and for breadboards, wires with male type headers often make sense.
 
 Well, breadboards are just lo-fidelity prototypes. For advancing a product, you want to replace a breadboard with a PCB. This influences the wiring. In contrast to breadboards, connecting a PCB is often done with wires with female headers.
 
