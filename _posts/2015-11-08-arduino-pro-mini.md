@@ -30,7 +30,9 @@ But it is even possible to find cheaper boards with an MCU, such as the [ATtami 
 
 <img src="/media/images/attami.png" />
 
-This board reminds a bit on the [Wattuino Nanite](http://www.watterott.com/en/Wattuino-Nanite85) which is based on the [Nanite](https://github.com/cpldcpu/Nanite) design by Tim Böscke. However, that controller is so small, that it does run a special bootloader: [The Micronucleus](https://github.com/micronucleus/micronucleus) which is a bit larger than 1kByte.
+There is a whole lot of research behind the ATtami which can be [found here](http://mcu.soup.io/tag/attiny85).
+
+From own experience, the ATtami board reminded me on the [Wattuino Nanite](http://www.watterott.com/en/Wattuino-Nanite85) which is based on the [Nanite](https://github.com/cpldcpu/Nanite) design by Tim Böscke. However, that controller is so small, that it does run a special bootloader: [The Micronucleus](https://github.com/micronucleus/micronucleus) which is a bit larger than 1kByte.
 
 PS Thanks to [Yair](https://twitter.com/yair99) for the ATtami!
 
