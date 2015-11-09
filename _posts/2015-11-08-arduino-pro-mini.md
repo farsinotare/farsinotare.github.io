@@ -12,17 +12,17 @@ Since I had bought a bunch of Arduino Pro Mini's on Ebay a while back, I thought
 
 <img src="/media/images/pro_mini_1.png" />
 
-On the right, there is an USB-to-FTDI converter which is needed to program an Arduino Pro Mini. So, to do something useful with the board, the converter can act as a nice programmer as shown below:
+On the right, there is an USB-to-FTDI converter for serial communication which is needed to program an Arduino Pro Mini. So, to do something useful with the board, the converter can act as a nice programmer as shown below:
 
 <img src="/media/images/pro_mini_2.png" />
 
-While the basic idea of combining two boards felt nice, I somehow preferered working with Arduino Nano's until this weekend.  On Ebay, the Arduino Pro Mini's are just incredible cheap.
+While the basic idea of combining two boards felt nice, I somehow preferered working with Arduino Nano's until this weekend.  On Ebay, the Arduino Pro Mini's are just incredibly cheap.
 
 <img src="/media/images/ebay_pro_mini.png" />
 
-Only, I also realized this weekend that  there is a 3.3V and 5V version of the Arduino Mini. Also, as with other boards from China, you have to solder header pins to use them on a breadboard.  
+As with other boards from China, you have to solder header pins to use them on a breadboard. Only, I also realized this weekend that there is a 3.3V and 5V version of the Arduino Mini. The 3.3V variant can be nice if you want to combine the board with a Raspberry Pi for example or other 3.3V components.
 
-In the Arduino IDE, I had the following settings that worked for me
+You can use the Arduino IDE to program the board. The following settings worked for me:
 
 <img src="/media/images/arduino_mini_settings.png" />
 
@@ -30,6 +30,4 @@ But it is even possible to find cheaper boards with an MCU, such as the [ATtami 
 
 <img src="/media/images/attami.png" />
 
-This board reminds a bit on the [Wattuino Nanite](http://www.watterott.com/en/Wattuino-Nanite85)
-
-
+This board reminds a bit on the [Wattuino Nanite](http://www.watterott.com/en/Wattuino-Nanite85) which is based on the [Nanite](https://github.com/cpldcpu/Nanite) design by Tim Böscke. However, that controller is so small, that it does run a special bootloader: [The Micronucleus](https://github.com/micronucleus/micronucleus) which is a bit larger than 1kByte.
