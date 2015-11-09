@@ -33,3 +33,7 @@ But it is even possible to find cheaper boards with an MCU, such as the [ATtami 
 This board reminds a bit on the [Wattuino Nanite](http://www.watterott.com/en/Wattuino-Nanite85) which is based on the [Nanite](https://github.com/cpldcpu/Nanite) design by Tim Böscke. However, that controller is so small, that it does run a special bootloader: [The Micronucleus](https://github.com/micronucleus/micronucleus) which is a bit larger than 1kByte.
 
 PS Thanks to [Yair](https://twitter.com/yair99) for the ATtami!
+
+## Comments
+
+Comment on Reddit [here](https://www.reddit.com/r/arduino/comments/3s6jis/towards_tinier_arduino_boards/)
