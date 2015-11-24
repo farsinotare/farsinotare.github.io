@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Riotbaard
+title: The Riotboard
 tags: riotboard
 ---
 Working with embedded graphics and multimedia requires a powerful process.
