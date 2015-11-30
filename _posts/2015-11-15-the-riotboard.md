@@ -18,3 +18,6 @@ To work with the board, you'll need an FTDI serial-to-USB converter.
 
 So far, I did not yet manage to install Linux. Also, I am not sure where/how to start with Android developing.
 
+<img src="/media/images/riotboard_sw_download.png" />
+
+
