@@ -47,3 +47,57 @@ Starting up the board with debug code shows something like:
       		PERCPU: Embedded 7 pages/cpu @c1309000 s6592 r8192 d13888 u32768
       		Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 208128
       		Kernel command line: console=ttymxc1,115200 init=/init nosmp video=mxcfb0:dev=hdmi,1280x720M@60,bpp=32 video=mxcfb1:off fbmem=10M vmalloc=400M androidboot.console=ttymxc1 androidboot.hardware=freescale
+
+Then, I retried to boot with a Linux SD Card. This is the output:
+
+    
+    U-Boot 2013.04 (Jul 04 2014 - 09:45:23)
+    
+    CPU:   Freescale i.MX6SOLO rev1.1 at 792 MHz
+    CPU:   Temperature 41 C, calibration data: 0x5b752c5f
+    Reset cause: POR
+    Board: MX6SOLO RIoTboard
+    I2C:   ready
+    DRAM:  1 GiB
+    MMC:   FSL_SDHC: 0, FSL_SDHC: 1, FSL_SDHC: 2
+    *** Warning - bad CRC, using default environment
+    
+    No panel detected: default to HDMI
+    Display: HDMI (640x480)
+    In:    serial
+    Out:   serial
+    Err:   serial
+    unsupported boot devices
+    mmc1 is current device
+    Net:   FEC [PRIME]
+    Warning: failed to set MAC address
+    
+    Normal Boot
+    Hit any key to stop autoboot:  0
+    mmc1 is current device
+    reading boot.scr
+    ** Unable to read file boot.scr **
+    reading uImage
+    5275824 bytes read in 250 ms (20.1 MiB/s)
+    Booting from mmc ...
+    reading imx6solo_RIoTboard.dtb
+    43553 bytes read in 19 ms (2.2 MiB/s)
+    ## Booting kernel from Legacy Image at 12000000 ...
+       Image Name:   Linux-3.10.17_1.0.0_RIoTboard+g1
+       Image Type:   ARM Linux Kernel Image (uncompressed)
+       Data Size:    5275760 Bytes = 5 MiB
+       Load Address: 10008000
+       Entry Point:  10008000
+       Verifying Checksum ... OK
+    ## Flattened Device Tree blob at 18000000
+       Booting using the fdt blob at 0x18000000
+       Loading Kernel Image ... OK
+    OK
+       Using Device Tree in place at 18000000, end 1800da20
+    
+    Starting kernel ...
+
+
+And, with HDMI the board freezes: http://www.element14.com/community/thread/37656/l/linux-freezes-when-connected-to-hdmi?displayFullThread=true
+
+
