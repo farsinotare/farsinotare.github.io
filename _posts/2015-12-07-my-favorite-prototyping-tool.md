@@ -3,9 +3,9 @@ layout: post
 title: My favorite prototyping tool
 tags: prototyping
 ---
-Small boards, like [Arduino Pro Mini, Nano's or Micro's](http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/) are great. They are heap, they small and they have nice, small USB plugs.
+Small boards, like [Arduino Pro Mini, Nano's or Micro's](http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/) are great. They are cheap, small and just need a mini USB cable.
 
-They also fit fell with breadboards, but one thing makes them even better: [An adapter board for Grove Kit components](https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/). The Grove headers and connectors make it very simple for software handle people to plug circuits together. This can be nice to simple simulate sensors or events.
+They also fit well with breadboards. One thing makes these boards even better: [An adapter board for Grove Kit components](https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/). The [Grove headers and connectors](http://www.seeedstudio.com/depot/Grove-Universal-4-pin-connector-p-789.html) make plugging circuits very simple for software handed people. This can be nice to simple simulate *sensors* or *events*.
 
 <img src="/media/images/grove_hat_nano.png" />
 
