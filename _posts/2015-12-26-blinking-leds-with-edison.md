@@ -6,6 +6,7 @@ layout: post
 The [Intel Edison Hardware guide](https://communities.intel.com/servlet/JiveServlet/downloadBody/23158-102-4-27348/edison-module_HG_331189-002.pdf) gives a good overview about the board.
 
 The main module comes with components on both sides. On top, there is:
+
 * eMMC (embedded memory)
 * USB transceiver
 * Bluetooth transceiver
@@ -47,18 +48,22 @@ The rest of this post is about exploring the Mini Breakout board.
 
 Firmware changes and it is a good idea to get the latest version. You can check what version you have with:
 
-   # configure_edison --version
+     # configure_edison --version
 
 If you don't get a reply back, you should upgrade. Have a look at:
 
 * [Firmware update](https://software.intel.com/en-us/flashing-firmware-on-your-intel-edison-board-mac-os-x)
-* http://www.helios.de/heliosapp/edison/
+* [Another description firmware update](http://www.helios.de/heliosapp/edison/)
 
 # Board schematics
 
-The mini breakaut board breaks out xx GPIO pins, some power pins and pins for communication.
+The [board schematics](http://www.intel.com/content/dam/support/us/en/documents/edison/sb/mini_edison_breakout_hvm_8_26.pdf) are open-source and are a good reference.
+
+The mini breakaut board breaks out some power pins, pins for communication and for GPIOs.
 
 <img src="/media/images/mini_bb_blocks.png" />
+
+The main blocks are 4 jumpers (J19, J17, J18, J20) to attach wires to pins. 
 
 Some basic documentation about the [jumpers on the board](https://www.arduino.cc/en/ArduinoCertified/IntelEdison) can be found on the Arduino site.
 
