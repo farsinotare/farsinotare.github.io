@@ -83,7 +83,7 @@ To check the board setup and to learn about pin functions of the board, it's goo
 
 A good start are the schematics of the board. You can find the [Edison mini breakout board schematics](http://www.intel.com/content/dam/support/us/en/documents/edison/sb/mini_edison_breakout_hvm_8_26.pdf) online. It's a great source for learning about electronics, although if you have a software background contact with schematics can be a bit frustrating first.
 
-From the schematics, you can learn how the mini breakaut board breaks out pins for power, pins for communication and for GPIOs.
+From the schematics, you can learn how the mini breakaut board breaks out pins for power, pins for communication and for GPIOs. Another nice source learn about board schematics is [this guide](http://www.microcasts.tv/edison/) by [Kevin Sidwar](https://twitter.com/KevinSidwar).
 
 <img src="/media/images/mini_bb_blocks.png" />
 
@@ -121,5 +121,4 @@ And, last, you can have the LED blink by connecting to the GPIO and running [the
 
 The USB ammetter shows the input voltage of 5.1 V. This is a nice feedback that the board has power.
 
-
-
+Please leave comments and feedback how to improve at [Reddit](https://www.reddit.com/r/IntelEdison/comments/3yp0hl/notes_on_getting_started_with_the_mini_breakout/).
