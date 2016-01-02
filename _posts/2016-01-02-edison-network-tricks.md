@@ -36,11 +36,20 @@ In this file, you comment out BindToDevice=usb0 depending on your security prefe
 
 Depending on your network configuration, you must check that routes are setup correctly. An important route is the "default" route. More information about it [here](http://www.cyberciti.biz/faq/linux-setup-default-gateway-with-route-command/) and [here](https://communities.intel.com/thread/76067?start=0&tstart=0).
 
-The default gateway can be added with:
+On a fresh device, the network configuration looks like:
+    
+    root@edison:~# netstat -rn
+    Kernel IP routing table
+    Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+    192.168.2.0     0.0.0.0         255.255.255.0   U         0 0          0 usb0
+
+Note how the default route goes via usb0.
+
+After configuration and shutting down usb0, you sometimes need to add a default gateway with:
 
      root@edison:~# route add default gw 192.168.2.1
 
-Now, a working routes table can look like:
+Then, a working routes table can look like:
 
      root@edison:~# netstat -rn
      Kernel IP routing table
