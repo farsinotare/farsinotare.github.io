@@ -6,7 +6,7 @@ layout: post
 
 The Edison supports Wifi and Bluetooth out-of-the-box. And, with the [Edi-Expand](http://www.tektyte.com/#about) you can additionally get Ethernet for Edison.
 
-Enough reasons to quickly gather some thoughts about connectivity setups with the Edison.
+Here are some notes and thoughts that might help you to explore Edison connectivity.
 
 # Edison as Access Point
 
@@ -21,13 +21,13 @@ This starts the AP mode and you could easily use it to serve pages to your mobil
 
 Once you have a network connection, how can you SSH into the Edison via Wifi? One option is by defining an alias, e.g. on your local laptop:
 
-   $ alias ssh_edison="ssh -o StrictHostKeyChecking=no root@edison.local"
-   $ ssh_edison
+    $ alias ssh_edison="ssh -o StrictHostKeyChecking=no root@edison.local"
+    $ ssh_edison
 
 Note: Depending on your Edison configuration, you have to edit the systemd service to allow ssh without a password.
 On the Edison:
 
-   # vi /lib/systemd/system/sshd.socket
+    # vi /lib/systemd/system/sshd.socket
 
 In this file, you comment out BindToDevice=usb0 depending on your security preferences. 
 
@@ -38,23 +38,23 @@ Depending on your network configuration, you must check that routes are setup co
 
 The default gateway can be added with:
 
-   root@edison:~# route add default gw 192.168.2.1
+     root@edison:~# route add default gw 192.168.2.1
 
 Now, a working routes table can look like:
 
-   root@edison:~# netstat -rn
-   Kernel IP routing table
-   Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
-   0.0.0.0         192.168.1.1     0.0.0.0         UG        0 0          0 wlan0
-   192.168.1.0     0.0.0.0         255.255.255.0   U         0 0          0 wlan0
-   192.168.2.0     0.0.0.0         255.255.255.0   U         0 0          0 usb0
-
+     root@edison:~# netstat -rn
+     Kernel IP routing table
+     Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+     0.0.0.0         192.168.1.1     0.0.0.0         UG        0 0          0 wlan0
+     192.168.1.0     0.0.0.0         255.255.255.0   U         0 0          0 wlan0
+     192.168.2.0     0.0.0.0         255.255.255.0   U         0 0          0 usb0
+  
 Or:
 
-   root@edison:~# route
-   Kernel IP routing table
-   Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-   192.168.2.0     *               255.255.255.0   U     0      0        0 wlan0
+     root@edison:~# route
+     Kernel IP routing table
+     Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+     192.168.2.0     *               255.255.255.0   U     0      0        0 wlan0
 
 By adding default routes, you can also share internet through another machine, e.g. as described [here](http://cylonjs.com/documentation/platforms/edison/).
 
@@ -62,7 +62,7 @@ Last, it might be important to setup a DNS service.
 
 More info in:
 
-   /etc/resolv.conf
+     /etc/resolv.conf
 
 
 # ifconfig
