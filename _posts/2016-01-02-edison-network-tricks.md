@@ -108,14 +108,14 @@ To debug settings, it is always helpful to do a quick ifconfig:
     
 Note, coming from an Raspberry Pi or Beaglebone you don't have a file to look default mappings of network interfaces. So, you might see:
 
-   ifdown: can't open '/etc/network/interfaces': No such file or directory
+      ifdown: can't open '/etc/network/interfaces': No such file or directory
 
 However, you have a system service that you can probe:
 
     
-    root@eddie:~# systemctl status wpa_supplicant.service
+      root@eddie:~# systemctl status wpa_supplicant.service
     
-    root@eddie:~# systemctl status -l wpa_supplicant.service
+      root@eddie:~# systemctl status -l wpa_supplicant.service
 
 And, a command 
 
@@ -138,7 +138,7 @@ And, a command
 
 Note, if you see that the following command does not work:
 
-    # configure_edison --version 
+      # configure_edison --version 
     
 You should upgrade your firmware.
 
@@ -147,3 +147,5 @@ You should upgrade your firmware.
 To come:
 
 * http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html#gettingstarted
+
+Comments via [reddit](https://www.reddit.com/r/IntelEdison/comments/3z5bra/notes_on_intel_edison_connectivity/?ref=share&ref_source=link).
