@@ -8,7 +8,7 @@ The Edison supports Wifi and Bluetooth out-of-the-box. And, with the [Edi-Expand
 
 Enough reasons to quickly gather some thoughts about connectivity setups with the Edison.
 
-# Make Intel an Access Point
+# Edison as Access Point
 
 First, it can be interesting to have the Intel Edison working as Wifi Access Point (AP mode) or Hotspot. You will find some ideas in the [thread](https://communities.intel.com/thread/55610?start=0&tstart=0). The main command for the hotspot mode is:
 
