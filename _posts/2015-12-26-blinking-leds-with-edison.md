@@ -3,7 +3,7 @@ title: Blinking LEDs with Edison mini breakout board
 tags: edison
 layout: post
 ---
-The [Intel Edison Hardware guide](https://communities.intel.com/servlet/JiveServlet/downloadBody/23158-102-4-27348/edison-module_HG_331189-002.pdf) provides an interesting combination of connectivity (Wifi, Bluetooth and USB) with "special" pins for signal processing. This makes the board similar to a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) with Wifi and Bluetooth dongles, and on the other hand similar to an [Arduino](https://en.wikipedia.org/wiki/Arduino) with pins for processing "digital" and "analog" signals.
+The [Intel Edison module](https://communities.intel.com/servlet/JiveServlet/downloadBody/23158-102-4-27348/edison-module_HG_331189-002.pdf) provides an interesting combination of connectivity (Wifi, Bluetooth and USB) with "special" pins for signal processing. This makes the board similar to a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) with Wifi and Bluetooth dongles, and on the other hand similar to an [Arduino](https://en.wikipedia.org/wiki/Arduino) with pins for processing "digital" and "analog" signals.
 
 It is great to look how on both sides of an Edison module are mounted. On top, there are mainly components for connectivity:
 
@@ -35,7 +35,7 @@ To use the Edison hardware for a Maker project, there are several breakout board
 
 There are several breakout boards:
 
-* Intel Mini Breakout board
+* Intel Mini Breakout board (here are [getting started notes](https://github.com/indicatesvoid/EdisonNotes/wiki/Using-the-mini-breakout-board))
 * Intel Arduino Breakout board
 * EdiExpand breakout board ( [see docs](http://www.tektyte.com/docs/docpages/edi-expand/usage.html) )
 * [Sparkfun breakout boards](https://www.sparkfun.com/categories/272)
