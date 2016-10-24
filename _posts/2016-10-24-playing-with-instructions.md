@@ -29,3 +29,13 @@ Now, how can these programs be helpful to make specs like [Risc-V](https://riscv
 <iframe width="560" height="315" src="https://www.youtube.com/embed/viNy34KRTDc" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tbQcQaBT27c" frameborder="0" allowfullscreen></iframe>
+
+# SPIM
+
+* http://programmedlessons.org/AssemblyTutorial/index.html
+
+* http://users.ece.gatech.edu/~sudha/academic/class/ece2030/Lectures/spim-isa/index.html
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8dyibkAtaTM" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z1G7e7p6aVI" frameborder="0" allowfullscreen></iframe>
