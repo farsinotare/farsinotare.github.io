@@ -13,3 +13,15 @@ One example, is a program that helps to visualise code execution, e.g. [MARS](ht
 Now, how can these programs be helpful to make specs like [Risc-V](https://riscv.org/specifications/) better accessible ? One answer might be the [RISC-V simulator](https://github.com/s-macke/jor1k/blob/master/js/worker/riscv/safecpu.js).
 
 <img src="/media/images/workspace_mars_4.png" />
+
+## intro to mars
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KAMkj6AUTpc" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kltCm-zChY8" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VTjjxUMax40" frameborder="0" allowfullscreen></iframe>
+
+
